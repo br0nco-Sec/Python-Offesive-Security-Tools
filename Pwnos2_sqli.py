@@ -13,7 +13,7 @@ headers = {
     "Referer": "http://10.10.10.100/login.php"
 }
 
-def enviar_payload(payload):
+def send_payload(payload):
     data = {
         'email': payload,
         'pass': 'test',
